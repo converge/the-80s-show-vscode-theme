@@ -1,0 +1,21 @@
+{
+    "name": "the-80s-show",
+    "displayName": "the 80s show",
+    "description": "80s Style",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "The 80s Show",
+                "uiTheme": "vs-dark",
+                "path": "./themes/the-80s-show-color-theme.json"
+            }
+        ]
+    }
+}

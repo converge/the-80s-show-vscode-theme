@@ -1,0 +1,346 @@
+{
+  "name": "Converge Theme",
+  "type": "dark",
+  "colors": {
+    "activityBar.background": "#202535",
+    "activityBar.foreground": "#3f4b6d",
+    "activityBarBadge.background": "#4567aa",
+    "activityBarBadge.foreground": "#f8fafd",
+    "badge.background": "#282c34",
+    "button.background": "#404754",
+    "debugToolBar.background": "#517dbe",
+    "diffEditor.insertedTextBackground": "#00809b33",
+    "dropdown.background": "#21252b",
+    "dropdown.border": "#21252b",
+    "editor.background": "#202333",
+    "editor.foreground": "#abb2bf",
+    "editorError.foreground": "#c24038",
+    "editorIndentGuide.activeBackground": "#c8c8c859",
+    "editorMarkerNavigation.background": "#21252b",
+    "editorRuler.foreground": "#abb2bf26",
+    "editor.lineHighlightBackground": "#2c313c",
+    "editor.selectionBackground": "#67769660",
+    "editor.selectionHighlightBackground": "#ffffff10",
+    "editor.selectionHighlightBorder": "#ddd",
+    "editorCursor.background": "#ffffffc9",
+    "editorCursor.foreground": "#528bff",
+    "editorBracketMatch.border": "#515a6b",
+    "editorBracketMatch.background": "#515a6b",
+    "editor.findMatchBackground": "#42557b",
+    "editor.findMatchBorder": "#457dff",
+    "editor.findMatchHighlightBackground": "#314365",
+    "editor.wordHighlightBackground": "#484e5b",
+    "editor.wordHighlightBorder": "#7f848e",
+    "editor.wordHighlightStrongBackground": "#abb2bf26",
+    "editor.wordHighlightStrongBorder": "#7f848e",
+    "editorGroup.border": "#181a1f",
+    "editorGroupHeader.tabsBackground": "#202535",
+    "editorIndentGuide.background": "#3b4048",
+    "editorLineNumber.foreground": "#424242",
+    "editorWhitespace.foreground": "#3b4048",
+    "editorHoverWidget.background": "#21252b",
+    "editorHoverWidget.border": "#181a1f",
+    "editorSuggestWidget.background": "#21252b",
+    "editorSuggestWidget.border": "#181a1f",
+    "editorSuggestWidget.selectedBackground": "#2c313a",
+    "editorWidget.background": "#21252b",
+    "focusBorder": "#464646",
+    "input.background": "#1d1f23",
+    "list.activeSelectionBackground": "#2c313a",
+    "list.activeSelectionForeground": "#d7dae0",
+    "list.focusBackground": "#383e4a",
+    "list.hoverBackground": "#292d35",
+    "list.highlightForeground": "#c5c5c5",
+    "list.inactiveSelectionBackground": "#2c313a",
+    "list.inactiveSelectionForeground": "#d7dae0",
+    "peekViewEditor.matchHighlightBackground": "#29244b",
+    "scrollbarSlider.background": "#4e566660",
+    "scrollbarSlider.activeBackground": "#747d9180",
+    "scrollbarSlider.hoverBackground": "#5a637580",
+    "sideBar.background": "#202535",
+    "sideBarSectionHeader.background": "#323950",
+    "statusBar.background": "#202535",
+    "statusBar.foreground": "#505870",
+    "statusBarItem.hoverBackground": "#969daa",
+    "statusBar.noFolderBackground": "#21252b",
+    "statusBar.debuggingBackground": "#7e0097",
+    "statusBar.debuggingBorder": "#66017a",
+    "statusBar.debuggingForeground": "#ffffff",
+    "tab.activeBackground": "#2f3549",
+    "tab.border": "#2053d4",
+    "tab.inactiveBackground": "#21252b",
+    "tab.hoverBackground": "#323842",
+    "tab.unfocusedHoverBackground": "#323842",
+    "terminal.foreground": "#c8c8c8",
+    "terminal.ansiBlack": "#2d3139",
+    "terminal.ansiBlue": "#61afef",
+    "terminal.ansiGreen": "#98c379",
+    "terminal.ansiYellow": "#e5c07b",
+    "terminal.ansiCyan": "#56b6c2",
+    "terminal.ansiMagenta": "#c678dd",
+    "terminal.ansiRed": "#e06c75",
+    "terminal.ansiWhite": "#d7dae0",
+    "terminal.ansiBrightBlack": "#7f848e",
+    "terminal.ansiBrightBlue": "#528bff",
+    "terminal.ansiBrightGreen": "#98c379",
+    "terminal.ansiBrightYellow": "#e5c07b",
+    "terminal.ansiBrightCyan": "#56b6c2",
+    "terminal.ansiBrightMagenta": "#7e0097",
+    "terminal.ansiBrightRed": "#f44747",
+    "terminal.ansiBrightWhite": "#d7dae0",
+    "titleBar.activeBackground": "#202535",
+    "titleBar.activeForeground": "#383f57",
+    "titleBar.inactiveBackground": "#202535",
+    "titleBar.inactiveForeground": "#2c3142",
+    "textLink.foreground": "#61afef"
+  },
+  "tokenColors": [
+    {
+			"name": "[HTML] - element",
+      "scope": "source.js meta.jsx.children.js",
+			"settings": {
+				"foreground": "#b0bffc"
+			}
+    },
+    {
+			"name": "[HTML] - end tag",
+      "scope": ["source.js entity.name.tag.js",
+        "source.js punctuation.definition.tag.end.js"],
+			"settings": {
+				"foreground": "#3a54c7"
+			}
+    },
+    {
+			"name": "[HTML] - tag",
+      "scope": "source.js meta.tag.attributes.js",
+			"settings": {
+				"foreground": "#6e88fa"
+			}
+    },
+    {
+			"name": "[JAVASCRIPT/REACT] - class def",
+      "scope": ["source.js storage.type.class.js",
+        "source.python storage.type.class.python"],
+			"settings": {
+				"foreground": "#6e88fa"
+			}
+    },
+    {
+			"name": "[JAVASCRIPT/REACT] - state",
+      "scope": "source.js variable.object.property.js",
+			"settings": {
+				"foreground": "#6e88fa"
+			}
+    },
+    {
+			"name": "[JAVASCRIPT] - Parameter",
+      "scope": "source.js meta.object-literal.key.js",
+			"settings": {
+				"foreground": "#3051e4"
+			}
+    },
+    {
+			"name": "[JAVASCRIPT] - Parameter",
+      "scope": ["source.js variable.other.object.property.js",
+        "source.python meta.function-call.arguments.python"],
+			"settings": {
+				"foreground": "#059b11"
+			}
+    },
+    {
+			"name": "[JAVASCRIPT] - Parameter",
+      "scope": ["source.js string.quoted.single.js",
+        "source.python string.quoted.single.python"],
+			"settings": {
+				"foreground": "#a26ae7"
+			}
+    },
+    {
+			"name": "[Python] - Self",
+      "scope": ["source.js variable.parameter.js",
+        "source.python variable.parameter.function.language.special.self.python",
+        "source.python variable.language.special.self.python"],
+			"settings": {
+				"foreground": "#4069fc"
+			}
+    },
+    {
+			"name": "[JAVASCRIPT] - Parameter",
+      "scope": ["source.js variable.parameter.js",
+        "source.python variable.parameter.function.language.python"],
+			"settings": {
+				"foreground": "#1141ec"
+			}
+    },
+    {
+			"name": "[JAVASCRIPT] - Decimal",
+      "scope": "source.js constant.numeric.decimal.js",
+			"settings": {
+				"foreground": "#fbbc62"
+			}
+    },
+    {
+			"name": "[JAVASCRIPT] - Null",
+      "scope": "source.js constant.language.null.js",
+			"settings": {
+				"foreground": "#fbbc62"
+			}
+    },
+    {
+			"name": "[JAVASCRIPT] - boolean",
+      "scope": ["source.js constant.language.boolean.false.js",
+               "source.js constant.language.boolean.true.js"],
+			"settings": {
+				"foreground": "#d5b3d6"
+			}
+    },
+    {
+			"name": "[JAVASCRIPT] - Comment double slash",
+      "scope": ["source.js comment.line.double-slash.js",
+        "source.python string.quoted.docstring.multi.python"],
+			"settings": {
+				"foreground": "#bbbbbb"
+			}
+    },
+    {
+			"name": "[JAVASCRIPT] - Comment start",
+			"scope": "source.js punctuation.definition.comment.js",
+			"settings": {
+				"foreground": "#bbbbbb"
+			}
+    },
+    {
+			"name": "[JAVASCRIPT] - Other Property",
+			"scope": "source.js variable.other.property.js",
+			"settings": {
+				"foreground": "#01a19c"
+			}
+    },
+    {
+			"name": "[JAVASCRIPT] - Control conditional",
+			"scope": "source.js keyword.control.conditional.js",
+			"settings": {
+				"foreground": "#00f1e8"
+			}
+    },
+    {
+			"name": "[JAVASCRIPT] - Read write",
+			"scope": "source.js variable.other.readwrite.js",
+			"settings": {
+				"foreground": "#fb6c78"
+			}
+    },
+    {
+			"name": "[JAVASCRIPT] - Arrow Function",
+			"scope": "source.js storage.type.function.arrow.js",
+			"settings": {
+				"foreground": "#9367fa"
+			}
+    },
+    {
+			"name": "[JAVASCRIPT] - Function name",
+      "scope": ["source.js entity.name.function.js",
+        "source.python support.function.magic.python",
+        "source.python entity.name.function.python",
+        "source.python meta.function-call.generic.python"],
+			"settings": {
+				"foreground": "#db0fe2"
+			}
+    },
+    {
+			"name": "[JAVASCRIPT] - Function call",
+			"scope": "source.js meta.function-call.js",
+			"settings": {
+				"foreground": "#d5b3d6"
+			}
+    },
+    {
+			"name": "[JAVASCRIPT] - Color for Storage Type Function",
+			"scope": "source.js storage.type.function",
+			"settings": {
+				"foreground": "#1f0520"
+			}
+    },
+    {
+			"name": "[JAVASCRIPT] - Color for Variable Language",
+      "scope": ["variable.language, entity.name.type.class.js",
+        "source.python entity.name.type.class.python"],
+			"settings": {
+				"foreground": "#1de42d"
+			}
+    },
+    {
+			"name": "[JAVASCRIPT] - Color for Inherited Component",
+			"scope": ["entity.other.inherited-class"],
+			"settings": {
+				"foreground": "#FFEE80"
+			}
+		},
+		{
+			"name": "[JAVASCRIPT] - Color for React Extends keyword",
+			"scope": ["storage.type.extends.js", "storage.type.class.jsdoc"],
+			"settings": {
+				"foreground": "#FF9D00"
+			}
+		},
+		{
+			"name": "[JAVASCRIPT] — Docs Keywords",
+			"scope": "punctuation.definition.block.tag.jsdoc",
+			"settings": {
+				"foreground": "#FF9D00"
+			}
+		},
+		{
+			"name": "[JAVASCRIPT] — Doc Var Types",
+			"scope": ["variable.other.jsdoc", "entity.name.type.instance.jsdoc"],
+			"settings": {
+				"foreground": "#9EFFFF"
+			}
+		},
+		{
+			"name": "[JAVASCRIPT] — Var Types",
+			"scope": ["variable.other.constant.js"],
+			"settings": {
+				"foreground": "#fb6c78"
+			}
+    },
+    {
+      "name": "Keyword, Storage",
+      "scope": [
+        "keyword",
+        "storage.type.js",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#c43c85"
+      }
+    },
+    {
+      "name": "[JS] EXPORT",
+      "scope": [
+        "keyword.control.export.js"
+      ],
+      "settings": {
+        "foreground": "#6822b7"
+      }
+    },
+    {
+      "name": "[JS] STRING",
+      "scope": [
+        "string.quoted.double.js"
+      ],
+      "settings": {
+        "foreground": "#a26ae7"
+      }
+    },
+    {
+      "name": "[JS] FUNCTION CALL",
+      "scope": [
+        "variable.other.object.js"
+      ],
+      "settings": {
+        "foreground": "#01a19c"
+      }
+    }
+  ]
+}
